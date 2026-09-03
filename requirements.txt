@@ -1,0 +1,27 @@
+# EvoSend v8 — dependências Python
+# Instalar com: pip install -r requirements.txt
+
+# Interface gráfica
+PySide6>=6.6.0
+
+# Banco de dados Microsoft Access (requer driver ACE instalado no Windows)
+# Driver: Microsoft Access Database Engine 2016 Redistributable
+# https://www.microsoft.com/en-us/download/details.aspx?id=54920
+pyodbc>=5.0.0
+
+# Automação do Outlook (Windows only)
+pywin32>=306
+
+# Notificações nativas do Windows (ao finalizar envio em lote)
+plyer>=2.1.0
+
+# Geração de PDF
+reportlab>=4.0.0
+
+# Gráficos nos PDFs
+matplotlib>=3.8.0
+
+# Leitura de planilhas Excel (.xlsx / .xlsm)
+pandas>=2.0.0
+openpyxl>=3.1.0
+numpy>=1.26.0

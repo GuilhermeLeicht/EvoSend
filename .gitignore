@@ -1,0 +1,3 @@
+.venv
+evosend_local_config.json
+__pycache__
